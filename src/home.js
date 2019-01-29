@@ -15,26 +15,40 @@ class Home extends Component {
             class="col-sm-3 mr-3 ml-3"
             style={{ background: "rgb(142, 184, 222)" }}
           >
-            <h4>Who?</h4>
-
-            <p class="lead">
-              <strong>Adam Roe</strong>
+            <h5>
+              Adam Roe
               <small> BSc (Hons)</small>
-            </p>
+            </h5>
 
-            <p class="block-quote">
+            <p>
               I'm a 2:1 graduate in computing from the University of Central
               Lancashire.
             </p>
 
-            <p class="block-quote">
+            <p>
               With a passion for web development, I'm always experimenting with
               new styles and learning modern technologies/practices.
+            </p>
+
+            <p>
+              <small>
+                Skills and details can be found from the top-right menu
+              </small>
             </p>
           </div>
 
           <div class="col-sm-3 mr-3 ml-3" style={{ background: "#4cd646" }}>
-            <h4>Why?</h4>
+            <h5>Projects during university:</h5>
+
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p>Social Network</p>
+              </li>
+
+              <li class="list-group-item">
+                <p>Shopping Site</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

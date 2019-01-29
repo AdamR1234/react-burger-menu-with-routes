@@ -12,6 +12,10 @@ body {
   background: white;
 }
 
+.list-group-item {
+  background: #6be866;
+}
+
 .col-sm-3 {
   box-sizing: border-box;
   text-align: center;
@@ -34,7 +38,7 @@ a {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  border: solid 1px black;
+  background: black;
   transition: 0.3s;
 }
 
