@@ -13,9 +13,9 @@ body {
 }
 
 .col-sm-3 {
-  border: 1px solid black;
   box-sizing: border-box;
-  margin: 10px;
+  text-align: center;
+  background: rgb(168, 168, 168);
 }
 
 a {
@@ -28,7 +28,7 @@ a {
   width: 36px;
   height: 30px;
   right: 36px;
-  top: 36px;
+  top: 16px;
   outline: none;
 }
 
